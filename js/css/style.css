@@ -1,0 +1,101 @@
+#Head{
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    border: 1px solid #c3c3cc;
+    background-color: #c3c3cc;
+    align-items: center;
+
+}
+#Head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.slider{
+    width: 80%;
+    margin: 0 auto;
+}
+.slider{
+    Width: 100%;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Apply some basic styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the h1 in the header */
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the team grid */
+  #team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Style the team cards */
+  .team-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the team name in the team cards */
+  .team-name {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  /* Style the team icon in the team cards */
+  .team-icon {
+    max-width: 100%;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  
+  .title{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the copyright notice in the footer */
+  footer p {
+    margin: 0;
+  }
+  

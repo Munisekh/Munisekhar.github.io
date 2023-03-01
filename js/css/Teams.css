@@ -1,0 +1,114 @@
+/* Apply a global box-sizing value of border-box to all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Apply some basic styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the h1 in the header */
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the team details section */
+  #team-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the team name and icon in the team details section */
+  .team-name {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .team-icon {
+    max-width: 200px;
+    margin-left: 20px;
+  }
+  
+  /* Style the player grid */
+  #player-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style the player cards */
+  .player-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the player photo */
+  .player-photo {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the player name and team in the player card */
+  .player-name {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .player-team {
+    margin-top: 5px;
+  }
+  
+  /* Style the player price, playing status, and role in the player card */
+  .player-price {
+    margin-top: 10px;
+  }
+  
+  .player-status {
+    margin-top: 5px;
+  }
+  
+  .player-role {
+    margin-top: 5px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the copyright notice in the footer */
+  footer p {
+    margin: 0;
+  }
+  
